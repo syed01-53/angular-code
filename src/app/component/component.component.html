@@ -1,0 +1,115 @@
+<section class="section-card">
+    <div class="container-fluid  border border-primary  ">
+        <div class="container border border-danger ">
+            <div class="row  border border-dark ">
+
+                <div class=" col-lg-3  col-md-4- col-sm-6  border px-2 ">
+                    <div>
+                       <div class="w-100 ">
+                       <img [src]="pic" alt=""  class="img-fluid" >
+                   </div>
+                       <p class="h3">
+                           {{visted}}
+                       </p>
+                       <p>
+                           {{getDate()}}
+                       </p>
+                       <p>
+                           {{time}}
+                       </p>
+                    </div>
+               </div>
+               <div class=" col-lg-3  col-md-4- col-sm-6  border px-2 ">
+                   <div>
+                      <div class=" w-100">
+                      <img [src]="pic" alt=""  class="img-fluid" >
+                  </div>
+                      <p class="h3">
+                          {{visted}}
+                      </p>
+                      <p>
+                          {{getDate()}}
+                      </p>
+                      <p>
+                          {{time}}
+                      </p>
+                   </div>
+              </div>
+              <div class=" col-lg-3  col-md-4- col-sm-6  border px-2">
+               <div>
+                  <div class=" w-100">
+                  <img [src]="pic" alt="" class="img-fluid" >
+              </div>
+                  <p class="h3">
+                      {{visted}}
+                  </p>
+                  <p>
+                      {{getDate()}}
+                  </p>
+                  <p>
+                      {{time}}
+                  </p>
+               </div>
+            </div>
+            <div class=" col-lg-3 col-md-4- col-sm-6 border px-2">
+              <div>
+                 <div class=" w-100">
+                 <img [src]="pic" alt=""   class="img-fluid">
+             </div>
+                 <p class="h3">
+                     {{visted}}
+                 </p>
+                 <p>
+                     {{getDate()}}
+                 </p>
+                 <p>
+                     {{time}}
+                 </p>
+              </div>
+            </div>
+            <div class=" col-lg-3 col-md-4- col-sm-6  border px-2">
+            <div>
+              <div class=" w-100">
+              <img [src]="pic" alt=""   class="img-fluid">
+            </div>
+              <p class="h3">
+                  {{visted}}
+              </p>
+              <p>
+                  {{getDate()}}
+              </p>
+              <p>
+                  {{time}}
+              </p>
+            </div>
+            </div>
+            
+            
+                   
+                   </div>
+                </div>
+        </div>
+   
+</section>
+<!-- counter  -->
+<section class="section-2">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+            <div class="col border">
+                <div class="d-flex justify-content-start  align-items-start  border w-100 h-100">
+                    <div class="w-25 bg-success border border-success  mt-2">
+                        <p type="button" class="btn btn-lg ">{{counter}}</p>
+                    </div>
+                    <div class=" w-25 bg-black p-2 border border-primary">
+                        <button class="btn btn-outline-danger me-2" type="submit" (click)="Increment()">Increment</button>
+                        <button class="btn btn-outline-primary ms-2" type="submit" (click)="Decrement()">Decrement</button>
+                    </div> 
+                </div>
+            
+                
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
